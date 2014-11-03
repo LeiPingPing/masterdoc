@@ -8,8 +8,10 @@ Latest stable version: [v0.0.0](link-to-change-log)
 
 A thrilling description, it should let me know clearly:
 
-1. What it can do (and what it cannot do)?
-2. Why it is my best choice?
+1. What can it do (and what cannot do)?
+2. Why is it my best choice?
+
+![pictures](https://cloud.githubusercontent.com/assets/340282/4879245/4ffd59ee-6326-11e4-9d66-01723ed693d9.png)
 
 ## Features
 
@@ -17,89 +19,16 @@ A thrilling description, it should let me know clearly:
 - The less the better.
 - Make sure not more than 5.
 
-## Requirement
+## Documentaion
 
-If your project must run in a paticular enviroment.
+- [User guide](./user-guide/index.md)
+- [Developer guide](./developer-guide/index.md)
+- [FAQ](#)
 
-e.g.
+## Community
 
-nodeJS >= 0.10.12
-
-or
-
-- IE6~10 ×
-- IE11 √
-- chrome √
-
-## Installation
-
-How to install or download the project, show the installation steps or download links.
-
-## Quick start
-
-**A carefully prepared demo is indispensable!**
-
-It should:
-
-- Always works (believe me, it is not easy).
-- Easy to run, typically with default config.
-- Demostrate the core features.
-- Use code snippet, screenshot and video when necessary.
-
-## Cli options
-
-#### -o, --option
-
-Option description.
-
-Default: default value
-
-### Subcommand(e.g. totoro config)
-
-Subcommand description.
-
-#### -s, --suboption
-
-Suboption description.
-
-Default: default value
-
-
-## API
-
-#### #classMethod(param1, param2)
-
-Method description.
-
-- param1: description.
-- param2: description.
-
-```
-Code snippet here
-```
-
-#### #classProperty
-
-Property description.
-
-#### .objectMethod(param1, param2)
-
-Method description.
-
-- param1: description.
-- param2: description.
-
-```
-Code snippet here
-```
-
-#### .objectProperty
-
-Property description.
-
-## Contributing
-
-Plain text or a link both be OK.
+- [Bug or suggestion](#)
+- [...](#)
 
 ## Historical versions
 
