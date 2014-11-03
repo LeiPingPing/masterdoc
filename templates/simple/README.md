@@ -51,7 +51,7 @@ It should:
 - Use code snippet, screenshot and video when necessary.
 
 
-## Configs / Cli options
+## Cli options / Configs
 
 #### -o, --option
 
