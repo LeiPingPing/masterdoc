@@ -74,7 +74,7 @@ Suboption description.
 Default: default value
 
 
-## API References
+## API Reference
 
 #### #classMethod(param1, param2)
 
