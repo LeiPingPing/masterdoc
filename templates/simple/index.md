@@ -8,8 +8,8 @@ Latest stable version: [v0.0.0](link-to-change-log)
 
 A thrilling description, it should let me know clearly:
 
-1. What it can do (and what it cannot do)?
-2. Why it is my best choice?
+1. What can it do (and what cannot do)?
+2. Why is it my best choice?
 
 ## Features
 
