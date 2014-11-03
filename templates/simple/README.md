@@ -11,11 +11,13 @@ A thrilling description, it should let me know clearly:
 1. What can it do (and what cannot do)?
 2. Why is it my best choice?
 
+
 ## Features
 
 - List core freatures here.
 - The less the better.
 - Make sure not more than 5.
+
 
 ## Requirement
 
@@ -31,9 +33,11 @@ or
 - IE11 √
 - chrome √
 
+
 ## Installation
 
 How to install or download the project, show the installation steps or download links.
+
 
 ## Quick start
 
@@ -46,7 +50,8 @@ It should:
 - Demostrate the core features.
 - Use code snippet, screenshot and video when necessary.
 
-## Cli options
+
+## Configs / Cli options
 
 #### -o, --option
 
@@ -65,7 +70,7 @@ Suboption description.
 Default: default value
 
 
-## API
+## API References
 
 #### #classMethod(param1, param2)
 
