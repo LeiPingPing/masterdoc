@@ -24,8 +24,8 @@
 #### Coding rules
 
 - Code style
-- Build
 - Testing
+- Build
 - Docs
 
 #### Commit
