@@ -24,8 +24,9 @@ A thrilling description, it should let me know clearly:
 
 ## Documentaion
 
+- [Architecture](./architecture.md)
 - [User guide](./user-guide/index.md)
-- [Developer guide](./developer-guide/index.md)
+- [Contributing](./CONTRIBUTING.md)
 - [FAQ](#)
 
 
