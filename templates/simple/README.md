@@ -76,12 +76,12 @@ Default: default value
 
 ## API Reference
 
-#### #classMethod(param1, param2)
+### Class(config)
 
-Method description.
+Class description.
 
-- param1: description.
-- param2: description.
+- config: description.
+- config.property: description.
 
 ```
 Code snippet here
@@ -91,7 +91,7 @@ Code snippet here
 
 Property description.
 
-#### .objectMethod(param1, param2)
+#### #classMethod(param1, param2)
 
 Method description.
 
@@ -105,6 +105,17 @@ Code snippet here
 #### .objectProperty
 
 Property description.
+
+#### .objectMethod(param1, param2)
+
+Method description.
+
+- param1: description.
+- param2: description.
+
+```
+Code snippet here
+```
 
 ## Contributing
 
