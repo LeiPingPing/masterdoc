@@ -12,7 +12,7 @@ A thrilling description, it should let me know clearly:
 2. Why is it my best choice?
 
 
-![pictures](https://cloud.githubusercontent.com/assets/340282/4879245/4ffd59ee-6326-11e4-9d66-01723ed693d9.png)
+![pictures](https://cloud.githubusercontent.com/assets/340282/4912668/fc9681e0-64a1-11e4-8603-3a75b51af9cf.png)
 
 
 ## Features
