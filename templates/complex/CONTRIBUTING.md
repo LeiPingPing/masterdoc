@@ -6,7 +6,6 @@
   - [Coding rules](#)
   - [Commit](#)
   - [Pull a request](#)
-  - [Accept or reject](#)
 - [Fix this doc](#)
 
 ---
@@ -21,6 +20,8 @@
 
 #### Checkout the code
 
+Generally, a new branch is recommended.
+
 #### Coding rules
 
 - Code style
@@ -30,9 +31,12 @@
 
 #### Commit
 
+Give the commit style guideline.
+
 #### Pull a request
 
-#### Accept or reject
+It may be accepted or rejected.
 
 ## Fix this doc
 
+How to contribute to this doc.
