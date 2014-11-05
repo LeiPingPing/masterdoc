@@ -1,0 +1,27 @@
+{
+  "name": "masterdoc",
+  "version": "0.1.0",
+  "description": "Help you write a well-formed project documentation.",
+  "homepage": "https://github.com/fool2fish/masterdoc",
+  "keywords": [
+    "master",
+    "doc",
+    "documentation",
+    "tool"
+  ],
+  "author": "fool2fish <fool2fish@gmail.com>",
+  "dependencies": {
+    "colorful": "~2.1.0",
+    "commander": "~2.3.0",
+    "utilx": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fool2fish/masterdoc.git"
+  },
+  "bin": {
+    "masterdoc": "./bin/index"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}
