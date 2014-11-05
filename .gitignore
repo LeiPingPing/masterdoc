@@ -1,0 +1,11 @@
+.project
+.settings
+.DS_Store
+node_modules/
+*.swp
+*.swo
+.sw*
+logs/
+lib-cov/
+lib/parser/test.vm
+coverage/
