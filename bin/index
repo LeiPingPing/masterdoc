@@ -26,7 +26,7 @@ var type = utilx.cGetCfg(commander).complex ? 'complex' : 'simple'
 var templDir = path.join(__dirname, '..', 'templates', type)
 
 copy(templDir, process.cwd())
-console.log('\nCreate doc files successfully.\n')
+console.log('\nGenerate doc files successfully.\n')
 
 
 function copy(fromRoot, toRoot/*private param*/, fromDir) {
