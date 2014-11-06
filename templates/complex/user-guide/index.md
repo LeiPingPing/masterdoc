@@ -8,9 +8,6 @@ A brief introduction to explain:
 
 ---
 
-## [Quick start](./quick-start.md)
-
-
 ## [Cli options](./cli-options.md) / [Configs](./configs.md)
 
 
