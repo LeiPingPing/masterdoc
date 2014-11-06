@@ -21,7 +21,7 @@ How to install or download the project, show the installation steps or download 
 It should:
 
 - Always works (believe me, it is not easy).
-- Easy to run, typically with default config.- 
-- Demostrate the core features.
+- Easy to run, typically with default config.
+- Demostrate the core features, guide users try out.
 - Use code snippet, screenshot and video when necessary.
 
