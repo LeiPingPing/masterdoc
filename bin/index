@@ -1,54 +1,70 @@
 #!/usr/bin/env node
 
-var fs = require('fs')
-var path = require('path')
-var commander = require('commander')
-var colorful = require('colorful')
-var utilx = require('utilx')
+var fs = require('fs');
+var path = require('path');
+var commander = require('commander');
+var colorful = require('colorful');
+var utilx = require('utilx');
+var debug = require('debug')('command');
 
-var pkg = require('../package')
+var pkg = require('../package');
 
 commander
   .description(pkg.description)
   .option('-v, --version',      'output version number')
   .option('-c, --complex',      'create docs for complex project')
+  .option('-l, --lanuage []',      'docs\'s lanuage, options [`cn`, `en`], default `en`')
   .on('version', function() {
-    console.log('\n  ' + colorful.cyan(pkg.version) + '\n')
-    process.exit(0)
+    console.log('\n  ' + colorful.cyan(pkg.version) + '\n');
+    process.exit(0);
   })
-  .helpInformation = utilx.cGetHelp(pkg)
-
+  .helpInformation = utilx.cGetHelp(pkg);
   
-commander.parse(process.argv)
+commander.parse(process.argv);
 
+var type = utilx.cGetCfg(commander).complex ? 'complex' : 'simple';
+var templDir = path.join(__dirname, '..', 'templates', type);
+var lanuage = commander.lanuage === 'cn' ? 'cn' : ''; // default en
 
-var type = utilx.cGetCfg(commander).complex ? 'complex' : 'simple'
-var templDir = path.join(__dirname, '..', 'templates', type)
+copy(templDir, process.cwd());
+console.log('\nGenerate doc files successfully.');
 
-copy(templDir, process.cwd())
-console.log('\nGenerate doc files successfully.\n')
-
+debug('commander.args', commander.args);
+debug('lanuage', commander.lanuage, '`' + lanuage + '`');
+debug('fromPath:', templDir);
+debug('toPath:', process.cwd());
 
 function copy(fromRoot, toRoot/*private param*/, fromDir) {
-  var fromDir = fromDir || fromRoot
-  var relPath = path.relative(fromRoot, fromDir)
-  var toDir = path.join(toRoot, relPath)
-  
-  var names = fs.readdirSync(fromDir)
+  fromDir = fromDir || fromRoot;
+  var relPath = path.relative(fromRoot, fromDir);
+  var toDir = path.join(toRoot, relPath);
+  var suffix = lanuage ? ('.' + lanuage) : '';
+  var names = fs.readdirSync(fromDir);
   names.forEach(function(name){
-    var fromPath = path.join(fromDir, name)
-    var toPath = path.join(toDir, name)
+    var fromPath = path.join(fromDir, name);
+    var toPath = path.join(toDir, name);
+
+    if (lanuage && utilx.isExistedFile(fromPath + suffix)) {
+      return;
+    }
+
+    if (/\.cn$/.test(name)) {
+      if (!lanuage) {
+        return;
+      } else {
+        toPath = toPath.replace(/\.cn$/, '');
+      }
+    } 
     
     if (utilx.isExistedFile(fromPath)) {
-      fs.writeFileSync(toPath, fs.readFileSync(fromPath))
-      
+      fs.writeFileSync(toPath, fs.readFileSync(fromPath));
     } else {
       if (!utilx.isExistedDir(toPath)) {
-        fs.mkdirSync(toPath)
+        fs.mkdirSync(toPath);
       }
-      copy(fromRoot, toRoot, fromPath)
+      copy(fromRoot, toRoot, fromPath);
     }
-  })
+  });
 }
 
 

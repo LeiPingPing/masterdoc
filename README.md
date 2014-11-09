@@ -1,47 +1,132 @@
-# masterdoc
+# Project name
 
-Help you write a well-formed project documentation.
+A brief slogan.
 
-Latest stable version: v0.1.0
+Latest stable version: [v0.0.0](link-to-change-log)
 
 ---
 
+A thrilling description, it should let me know clearly:
+
+1. What can it do (and what cannot do)?
+2. Why is it my best choice?
+
+
+## Features
+
+- List core freatures here.
+- The less the better.
+- Make sure not more than 5.
+
+
+## Requirement
+
+If your project must run in a paticular enviroment.
+
+e.g.
+
+nodeJS >= 0.10.12
+
+or
+
+- IE6~10 ×
+- IE11 √
+- chrome √
+
+
 ## Installation
 
+How to install or download the project, show the installation steps or download links.
+
+
+## Quick start
+
+**A carefully prepared demo is indispensable!**
+
+It should:
+
+- Always works (believe me, it is not easy).
+- Easy to run, typically with default config.
+- Demostrate the core features.
+- Use code snippet, screenshot and video when necessary.
+
+
+## Cli options / Configs
+
+#### -o, --option
+
+Option description.
+
+Default: default value
+
 ```
-$ npm install masterdoc -g
+Give a code snippet if it's hard to understand
 ```
 
-## Usage
+### Subcommand(e.g. totoro config)
+
+Subcommand description.
+
+#### -s, --suboption
+
+Suboption description.
+
+Default: default value
 
 
-#### Simple project
+## API Reference
 
-It only needs a single-page doc. 
+### Class(config)
+
+Class description.
+
+- config: description.
+- config.property: description.
 
 ```
-# Generate a "README.md" template in CWD
-$ masterdoc
+Code snippet here
 ```
 
-#### Complex project
+#### #classProperty
 
-It may has multiple modules, often needs an extra project to place the docs.
+Property description.
+
+#### #classMethod(param1, param2)
+
+Method description.
+
+- param1: description.
+- param2: description.
 
 ```
-# Generate a set of structured doc templates in CWD
-$ masterdoc -c
+Code snippet here
 ```
 
-Please perfect the content according to the templates, you can add or delete any stuff as you like.
+#### .objectProperty
 
-## The most important things for docs
+Property description.
 
-1. Clear index and structure.
-2. Carefully prepared demo.
-3. The less the better.
+#### .objectMethod(param1, param2)
+
+Method description.
+
+- param1: description.
+- param2: description.
+
+```
+Code snippet here
+```
+
+## Contributing
+
+Plain text or a link both be OK.
+
+## Historical versions
+
+- [v0.0.2](link-to-according-docs)
+- [v0.0.1](link-to-according-docs)
 
 ## Licence
 
-[MIT](http://opensource.org/licenses/MIT)
+Plain text or a link both be OK.
 

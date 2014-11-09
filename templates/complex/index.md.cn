@@ -1,0 +1,49 @@
+# 项目名称
+
+简单的介绍。
+
+最新的稳定版本: [v0.0.0](变更列表地址)
+
+---
+
+一段精彩的描述, 他必须让我们清楚的知道:
+
+1. 他能做什么 (不能做什么)?
+2. 他为什么是你最佳的选择方案?
+
+
+![pictures](https://cloud.githubusercontent.com/assets/340282/4912668/fc9681e0-64a1-11e4-8603-3a75b51af9cf.png)
+
+
+## 功能
+
+- 罗列核心功能.
+- 越精简越好.
+- 不要超过5条.
+
+
+## 文档
+
+- [Quick start](./user-guide/quick-start.md)
+- [User guide](./user-guide/index.md)
+- [Architecture](./architecture.md)
+- [Contributing](./CONTRIBUTING.md)
+- [FAQ](#)
+
+
+## 交流
+
+- [Bug 或建议](#)
+- [...](#)
+
+
+## 历史版本
+
+- [v0.0.2](link-to-according-docs)
+- [v0.0.1](link-to-according-docs)
+
+
+## 许可（Licence）
+
+纯文本或者链接均可。
+

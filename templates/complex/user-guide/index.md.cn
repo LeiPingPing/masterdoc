@@ -1,0 +1,33 @@
+# User guide
+
+简要的解释:
+
+1. 本章节主要针对什么人?
+2. 本章节包含了些什么?
+3. 以什么样的方式阅读会更有效?
+
+---
+
+## [Cli options](./cli-options.md) / [Configs](./configs.md)
+
+
+## API Reference
+
+说明, 把最重要的或经常使用或链接放到最前面部分(可选).
+
+- [module1](./api/example.md)
+- [module2](./api/example.md)
+
+## Functions
+
+说明, 把最重要的或经常使用或链接放到最前面部分(可选).
+
+- [function1](./functions/example.md)
+- [function2](./functions/example.md)
+
+## Advanced topics
+
+说明, 把最重要的或经常使用或链接放到最前面部分(可选).
+
+- [topic1](link-to-topics)
+- [topic2](link-to-topics)
